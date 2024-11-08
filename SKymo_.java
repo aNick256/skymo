@@ -165,7 +165,7 @@ public void run(String arg) {
 
 
     // Reslice the image using the "Reslice" plugin
-    IJ.run(imp, "KymoResliceWide ", "intensity=Maximum");
+    IJ.run(imp, "KymoResliceWide", "intensity=Maximum");
 
     kymograph = WindowManager.getCurrentImage();
     channels = kymograph.getNChannels();
